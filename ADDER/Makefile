@@ -3,7 +3,7 @@ TOPLEVEL_LANG ?= vhdl
 
 VHDL_SOURCES = ./vhdl/*
 
-SIM_ARGS += --wave=dump.ghw --vcd=dump.vcd
+SIM_ARGS += --wave=./output/dump.ghw --vcd=./output/dump.vcd
 
 TOPLEVEL := adder
 MODULE := main
